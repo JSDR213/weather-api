@@ -36,12 +36,6 @@ and populate with as much data as you would like, based off of the API's respons
 Remember, we'll need to add our Axios and JS files in the head of our HTML before we can do anything
 
 ```html
-<head>
-   ...
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script defer src="script.js"></script>
-</head>
-
 ```
 
 Now we can get working on our JS, which may look something like this 

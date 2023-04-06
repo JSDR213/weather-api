@@ -1,0 +1,29 @@
+body{
+    padding: 50px 0 0 0;
+    text-align: center;
+    background-image: url('../clouds.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+input{
+    padding: 5px;
+    text-align: center;
+}
+
+button{
+    padding: 5px;
+    background-color: bd959f
+}
+
+div{
+    background-color: f1f4f9;
+    border: 5px;
+    margin: 40px;
+    padding: 20px
+}
+
+p {
+    font-size: 18px;
+}
