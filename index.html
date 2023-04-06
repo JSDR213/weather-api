@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="script.js"></script>
+    <title>Weather API App</title>
+</head>
+<body>
+    <div id="frame">
+    <h1>Weather Forecast</h1>
+    <p>Enter the location that you would like to see the weather for</p>
+
+    <header>
+        <form>
+            <input id="textInput" type="text" placeholder="enter city here" />
+            <button id="submitButton"> Search Location </button>
+
+        </form>
+                    
+        <h1 id="cityName"> </h1>
+        <p id="latlong"> </p>
+        <p id="datetime"> </p>
+        <h2 id="temperature"> </h2>
+        
+        <div></div>
+            <p id="conditionIcon"></p>  
+            <p id="condition"></p>
+            <p id="wind"></p>
+            <p id="windgusts"></p>
+            <p id="precip"></p>
+    </header>
+    <div></div>
+    </div>
+</body>
+</html>

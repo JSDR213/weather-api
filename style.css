@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://thumbs.dreamstime.com/b/sunrise-dramatic-blue-sky-orange-sun-rays-breaking-clouds-nature-background-hope-concept-110818674.jpg');
+  background-repeat: no-repeat; 
+  background-size: 100%;
+  /* background-color: gray; */
+}
+
+#frame {
+  vertical-align: middle;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color:rgba(255, 238, 0, 0.795);
+  margin: auto;
+  text-align: center;
+  width: 35em;
+  height: 42em;
+  justify-content: center;
+  margin-top: 50px;
+}
+  
+h1 {
+  text-align: center;
+}
+
+form{
+  text-align: center;
+  position: center;
+}
+
+img{
+  width: 100px;
+}
+
