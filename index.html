@@ -1,0 +1,33 @@
+
+
+<head>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+ </head>
+
+ <body>
+    <div></div>
+
+    <header>
+        <h1>check the weather</h1>
+
+        <input id="textInput" type="text" placeholder="enter city" />
+        <button id="submitButton"> Submit </button>
+        <div class="toggle-container">
+            <div class="toggle" onclick="toggle()">
+                <div class="circle"></div>
+            </div>
+            <span class="text">°F</span>
+        </div>
+    </header>
+    <div class = "weather-container">
+        <h1 id="cityName"> </h1>
+        <p id="countryName"></p>
+        <p id="temp"> </p>
+        
+    </div>
+
+
+</body>
+

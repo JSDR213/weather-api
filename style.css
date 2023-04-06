@@ -1,0 +1,81 @@
+body{
+    padding: 50px 0 0 0;
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1504253163759-c23fccaebb55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+input{
+    padding: 5px;
+    text-align: center;
+    margin: 20 auto
+}
+
+button{
+    padding: 5px;
+    background-color: bd959f
+}
+p {
+    font-size: 18px;
+}
+
+.weather-container {
+    background-color: f1f4f9;
+    border: 5px;
+    margin: 60 auto;
+    padding: 20px;
+    width: 50%;
+}
+
+.toggle-container {
+    position: absolute;
+    align-items: center;
+    width:100%;
+}
+
+.text {
+    font-size: 18px;
+    color: #494949;
+}
+
+.toggle {
+    position: relative;
+    width: 40px;
+    height: 20px;
+    border: 2px solid #494949;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+    margin: 0 auto
+    
+}
+
+.circle {
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #494949;
+    transition: .3s;
+}
+
+.active {
+    border-color: blue;
+}
+
+.active + .text {
+    color: blue;
+}
+
+.active .circle {
+    left: 100%;
+    transform: translateX(-100%);
+    transition: .3s;
+    background-color: 494949;
+}
