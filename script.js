@@ -17,6 +17,7 @@ button.addEventListener('click', async () => {
     const umbrellaAnswer = document.querySelector("#umbrellaAnswer")
     const currentFore = document.querySelector("#currentFore")
     const looksLike = document.querySelector("#looksLike")
+    const sevenDay = document.querySelector("#sevenDay")
 
     let response = await axios.get(`http://api.weatherapi.com/v1/forecast.json?key=cf208495165446d390c161013230804&q=${textInput}&days=7&aqi=no&alerts=no`)
     let citName = response.data.location.name
@@ -41,6 +42,7 @@ button.addEventListener('click', async () => {
     cityName.innerText = citName
     imageDiv.innerHTML = `<img src=${todImg}>`
     currentFore.innerText = curFore
+    sevenDay.innerText = 'The 7 day Forecast:'
 
     for (let i = 0; i < 7; i++){
         let forecastArray = response.data.forecast.forecastday[i].day.condition.icon
