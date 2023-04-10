@@ -50,7 +50,7 @@ button.addEventListener('click', async () => {
     }
    
     for (let i = 0; i < 7; i++){
-        const dayArray = ['sun', 'mon', 'tues', 'wed', 'thurs', 'fri', 'sat', 'sun', 'mon', 'tues', 'wed', 'thurs', 'fri', 'sat']
+        const dayArray = ['sun', 'mon', 'tues', 'wed', 'thurs', 'fri', 'sat', 'sun', 'mon', 'tues', 'wed', 'thurs', 'fri', 'sat', 'sun']
         forDayArray[i].innerText = dayArray[day]
         day ++
     }
