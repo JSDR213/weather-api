@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API Homework</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div><p><b>Instructions: </b>Enter a city's name into the textbox below.
+        <p>You can also enter a State or Country after the city's name if your city shares its name with another.</p>
+        <p>For example, to see the weather in Paris, Texas and not Paris, France, enter <b>"paris texas"</b> or <b>"paris tx"</b> in the search.</p>
+        <p>The search is pretty forgiving, so try multiple things. <b>You can also use airport codes!</b></p>
+    </div>
+    <br>
+    <div>
+    <input id="textInput" type="text" placeholder="enter city here" />
+    <button id="submitButton">Click or Hit Enter</button>
+    </div>
+
+    <div>
+    <h1 id="cityName"> </h1>
+    <h2 id="temp"> </h2>
+    <h2 id="cityTime"> </h2>
+    <h2 id="condition"> </h2>
+    <h2 id="icon"> </h2>
+    </div>
+</body>
+</html>
