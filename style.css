@@ -1,0 +1,39 @@
+section{
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 300px;
+    height: 300px;
+    margin: auto;
+    padding: 3rem;
+    margin-top: 10vh;
+    background-image: linear-gradient(rgb(36,	100,	230), rgb(46,206,242));
+    border-radius: 15px;
+}
+input , button{
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    padding: .5rem;
+    text-align: center;
+}
+#cityName{
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+#cityTemp{
+    /* border: lightgrey solid 1px; */
+    /* width: fit-content; */
+    margin: auto;
+    padding: .5rem;
+    /* font-size: 2rem; */
+}
+#results{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+}
+
+h1{
+    font-size: 2rem;
+}
