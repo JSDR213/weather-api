@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="script.js"></script>
+    <title>Jessica's Weather Checker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Jessica's Nifty Thrifty Weather Checker</h1>
+      <h2>Search by: City Name, US Zipcode, or UK & Canada Postal Code</h2>
+      <input type="text" placeholder="Search Here" id="textInput" />
+      <input
+        type="checkbox"
+        id="airQuality"
+        name="airQuality"
+        value="airQuality"
+      />
+      <label for="airQuality">Include air quality</label>
+      <button id="searchButton">Get Current Weather</button>
+      <div id="weather"></div>
+    </div>
+  </body>
+</html>
